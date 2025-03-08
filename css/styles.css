@@ -12,18 +12,17 @@
 .species-card {
     transition: transform 0.3s ease;
     cursor: pointer;
-    overflow: hidden; /* Mantém o zoom contido */
+    overflow: hidden;
 }
 
 .species-card:hover {
-    transform: scale(1.03); /* Zoom de 3% */
+    transform: scale(1.03); 
 }
 
-/* Opcional: Zoom na imagem */
 .card-img-top {
     transition: transform 0.3s ease;
 }
 
 .species-card:hover .card-img-top {
-    transform: scale(1.1); /* Zoom um pouco maior na imagem */
+    transform: scale(1.1); 
 }
