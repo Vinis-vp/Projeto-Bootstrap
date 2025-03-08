@@ -1,0 +1,29 @@
+.form-control:focus, .form-select:focus {
+    border-color: #ffa832;
+    box-shadow: 0 0 0 0.25rem rgba(255, 168, 50, 0.25);
+}
+
+.modal-open .needs-validation.was-validated :invalid {
+    border-color: #ced4da !important;
+    box-shadow: none !important;
+    background-image: none !important;
+}
+
+.species-card {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    overflow: hidden; /* Mantém o zoom contido */
+}
+
+.species-card:hover {
+    transform: scale(1.03); /* Zoom de 3% */
+}
+
+/* Opcional: Zoom na imagem */
+.card-img-top {
+    transition: transform 0.3s ease;
+}
+
+.species-card:hover .card-img-top {
+    transform: scale(1.1); /* Zoom um pouco maior na imagem */
+}
